@@ -1,0 +1,13 @@
+{
+  "id": "DMSArchipelago",
+  "name": "DMS Archipelago",
+  "version": "0.1.2",
+  "author": "DarkMatterServers",
+  "url": "https://darkmatterservers.com",
+  "description": "Archipelago integration for Game Dev Tycoon (DMS). Requires UltimateLib.",
+  "main": "./main.js",
+  "dependencies": {
+    "gdt-modAPI": "0.1.x",
+    "UltimateLib": "1.x.x"
+  }
+}
