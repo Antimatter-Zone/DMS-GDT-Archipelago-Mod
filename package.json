@@ -1,0 +1,9 @@
+{
+  "name": "@antimatter-zone/dms-gdt-archipelago-mod-source",
+  "version": "0.0.0-local",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify:source": "node scripts/verify-source.mjs && node --test tests/*.test.mjs"
+  }
+}

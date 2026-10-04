@@ -1,13 +1,12 @@
 {
   "id": "DMSArchipelago",
   "name": "DMS Archipelago",
-  "version": "0.1.2",
+  "version": "0.2.0-smoke.1",
   "author": "DarkMatterServers",
   "url": "https://darkmatterservers.com",
-  "description": "Archipelago integration for Game Dev Tycoon (DMS). Requires UltimateLib.",
+  "description": "Private AMZ Hub Archipelago integration for Game Dev Tycoon (DMS).",
   "main": "./main.js",
   "dependencies": {
-    "gdt-modAPI": "0.1.x",
-    "UltimateLib": "1.x.x"
+    "gdt-modAPI": "0.1.2"
   }
 }
