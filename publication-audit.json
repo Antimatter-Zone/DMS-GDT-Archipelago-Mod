@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-06",
+  "sourceRevision": "8acac0c",
+  "sourceAuthorization": "Owner requested public first-party source and MIT licensing; no game or third-party add-on redistribution authorization inferred.",
+  "history": {
+    "scope": "Every blob reachable through all local refs; no remote exists.",
+    "commits": 2,
+    "blobs": 24,
+    "bytes": 129707,
+    "binaryBlobs": 0,
+    "blobsOver1MiB": 0,
+    "highConfidenceSecretMatches": 0,
+    "literalSecretCandidates": 1,
+    "reviewedCandidate": {"path": "tests/bridge.test.mjs", "line": 27, "classification": "Synthetic loopback test-only bearer; no real service credentials."}
+  },
+  "scanRules": ["private key headers", "GitHub tokens", "AWS key IDs", "credential-bearing HTTP URLs", "JWT strings", "long literal password/secret/token assignments"],
+  "limits": "Pattern-based scans and source review are not a guarantee that every possible secret or rights issue has been detected. Recheck exact source and release payloads before publication.",
+  "provenance": "Original dist/main.js and dist/package.json blobs and archival README hashes remain pinned in SOURCE-MANIFEST.md; later first-party source is documented as post-snapshot.",
+  "excluded": ["Game Dev Tycoon code/assets", "official mod API payload", "UltimateLib", "GDTExpansionPack", "TAG_Mod", "deployment credentials", "player saves"],
+  "license": "MIT for verified first-party source only; external terms are retained in NOTICE.md.",
+  "sourcePublication": "authorized_source_only_owner_confirmed_strictly_noncommercial_community_project",
+  "playerRelease": "blocked_pending_standalone_and_live_DMS_Hub_acceptance_and_signed_release"
+}

@@ -1,9 +1,13 @@
-# DMS Game Dev Tycoon Archipelago Mod — private integration
+# DMS Game Dev Tycoon Archipelago Mod — source integration
 
 This is the DMS-authored Game Dev Tycoon Archipelago mod. The owner authorized
-private integration and two local smoke clients on 2026-10-04. Public release
-remains separate. The repository contains no game assets or third-party mod
-payloads. See [the local staging/isolation recipe](qa/README.md).
+private integration and two local smoke clients on 2026-10-04, then MIT licensing
+and public first-party source on 2026-10-06, confirming a strictly non-commercial
+community project. [NOTICE.md](NOTICE.md) preserves the external distribution
+terms. Qualified player releases remain separately gated on standalone and live
+DMS/Hub tests.
+The repository contains no game assets or third-party mod payloads. See
+[the local staging/isolation recipe](qa/README.md) and [LICENSE](LICENSE).
 
 The active DMS candidate is [`dist/main.js`](dist/main.js), supported by the
 pure deterministic [`dist/contract.js`](dist/contract.js) module and its

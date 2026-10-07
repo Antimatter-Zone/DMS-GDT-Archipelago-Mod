@@ -9,7 +9,7 @@
 - `dist/package.json` SHA-256: `1cc6594e847e9182e96a085261fae5b5f78ca7c7176f8140960501859893722b`.
 - Old `README.md` is preserved byte-for-byte at `docs/legacy-monorepo-README.md` (SHA-256 `197fbd0dd25964b286a635e615e0ea5e2b807fd7ef7280ed9edd14cc841bf534`). Its relative links target the old monorepo and are historical.
 - Old Git history introduced this DMS mod on 2026-02-15 (`3dbe6fed`) and directly edited `dist/main.js` in later commits `acd184be` and `68da7e13`; `2bdd7a01` moved the path. There is no separate `src` tree, source map, bundler config, or build script in the old mod folder. The JavaScript is readable and directly maintained, not a minified binary bundle.
-- The original package names DarkMatterServers as author, but no standalone DMS mod license was found. Confirm ownership/desired license before any remote or distribution.
+- The original package names DarkMatterServers as author. No license existed in that snapshot; the owner authorized MIT for verified first-party source on 2026-10-06. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md); this does not grant third-party distribution rights.
 
 ## Post-snapshot source changes
 
@@ -27,8 +27,8 @@ consumption, canonical-object reconciliation, native research availability,
 received-index journaling, milestone checks, and goal reporting. See
 [BRIDGE-CONTRACT.md](./BRIDGE-CONTRACT.md) for the proposed bridge interface.
 
-These are post-snapshot DMS edits and do not resolve any ownership or
-distribution gate.
+These are post-snapshot DMS edits. The later first-party license authorization
+does not resolve external distribution or player-release gates.
 
 ### Authorized private integration, 2026-10-04
 
@@ -61,8 +61,9 @@ inside UltimateLib, which remains excluded with the add-on payloads.
 ## Release blockers and verification limits
 
 This checkout cannot reconstruct or validate the old installer or runtime by
-itself. Before any remote, release, or bot download flow, establish a standalone
-DMS license/owner approval; verify the
+itself. The first-party MIT license and source publication are now
+owner-authorized. Before any player release or bot download flow, preserve the
+owner's confirmed strictly non-commercial community-project boundary. Review the
 [Game Dev Tycoon modding agreement](https://www.greenheartgames.com/legal/game-dev-tycoon-modding-agreement/)
 for this use (including its commercial-use and original-game-asset
 restrictions); obtain any third-party permissions needed for actual packaging;
