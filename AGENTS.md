@@ -5,3 +5,5 @@ The owner authorized public first-party source and MIT licensing on 2026-10-06 a
 Keep the DMS-authored `dist/main.js` and `dist/package.json` history and source hashes traceable. The `dist` name is historical; no separate original source or build pipeline was found. Do not silently treat the copied third-party add-ons from the old monorepo as DMS-owned, create forks of them, or copy their payloads into this candidate. Preserve attribution and exact dependency pins before any later integration.
 
 Do not commit tokens, bot runtime configuration, secrets, generated installers, game files, or player data. The old README under `docs/` is an archival reference, not an operational runbook.
+
+Run `npm run verify:source` for a safe local source/contract check. The scoped [QA rules](qa/AGENTS.md) apply when changing the smoke scripts; a static pass is not standalone or live DMS/Hub acceptance.
